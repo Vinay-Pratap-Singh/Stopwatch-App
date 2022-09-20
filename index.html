@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0 outline-0 box-border h-screen w-screen flex items-center justify-center bg-[#eeeee4]">
+    <div class="w-80 flex flex-col items-center justify-center font-bold bg-white py-4 rounded-lg">
+        <p class="mb-4 text-4xl">
+            <span id="hour">00</span> :
+            <span id="minute">00</span> :
+            <span id="second">00</span> :
+            <span id="millisecond">00</span>
+        </p>
+        <div class="flex justify-around items-center w-full">
+            <button id="startBtn" class="border border-black px-4 py-1 rounded-lg">START</button>
+            <button id="pauseBtn" class="border border-black px-4 py-1 rounded-lg">PAUSE</button>
+            <button id="resetBtn" class="border border-black px-4 py-1 rounded-lg">RESET</button>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
